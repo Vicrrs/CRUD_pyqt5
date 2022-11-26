@@ -14,7 +14,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(483, 524)
+        MainWindow.resize(631, 524)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.adicionar_item_qpushbutton = QtWidgets.QPushButton(self.centralwidget)
@@ -27,14 +27,17 @@ class Ui_MainWindow(object):
         self.limparlista_qpushbutton.setGeometry(QtCore.QRect(330, 100, 121, 51))
         self.limparlista_qpushbutton.setObjectName("limparlista_qpushbutton")
         self.adicionando_item_qlineEdit = QtWidgets.QLineEdit(self.centralwidget)
-        self.adicionando_item_qlineEdit.setGeometry(QtCore.QRect(30, 30, 421, 51))
+        self.adicionando_item_qlineEdit.setGeometry(QtCore.QRect(30, 30, 571, 51))
         self.adicionando_item_qlineEdit.setObjectName("adicionando_item_qlineEdit")
         self.minhaLista_listWidget = QtWidgets.QListWidget(self.centralwidget)
-        self.minhaLista_listWidget.setGeometry(QtCore.QRect(30, 190, 421, 281))
+        self.minhaLista_listWidget.setGeometry(QtCore.QRect(30, 190, 571, 281))
         self.minhaLista_listWidget.setObjectName("minhaLista_listWidget")
+        self.salvadb_pushButton = QtWidgets.QPushButton(self.centralwidget)
+        self.salvadb_pushButton.setGeometry(QtCore.QRect(480, 100, 121, 51))
+        self.salvadb_pushButton.setObjectName("salvadb_pushButton")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 483, 26))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 631, 21))
         self.menubar.setObjectName("menubar")
         MainWindow.setMenuBar(self.menubar)
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
@@ -50,6 +53,7 @@ class Ui_MainWindow(object):
         self.adicionar_item_qpushbutton.setText(_translate("MainWindow", "Adicionar Tarefa"))
         self.deletando_item_qpushbutton.setText(_translate("MainWindow", "Deletar Tarefa"))
         self.limparlista_qpushbutton.setText(_translate("MainWindow", "Limpar lista"))
+        self.salvadb_pushButton.setText(_translate("MainWindow", "Salvar no db"))
 
 
 if __name__ == "__main__":
