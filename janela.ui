@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>483</width>
+    <width>631</width>
     <height>524</height>
    </rect>
   </property>
@@ -58,7 +58,7 @@
      <rect>
       <x>30</x>
       <y>30</y>
-      <width>421</width>
+      <width>571</width>
       <height>51</height>
      </rect>
     </property>
@@ -68,9 +68,22 @@
      <rect>
       <x>30</x>
       <y>190</y>
-      <width>421</width>
+      <width>571</width>
       <height>281</height>
      </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="salvadb_pushButton">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>100</y>
+      <width>121</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Salvar no db</string>
     </property>
    </widget>
   </widget>
@@ -79,8 +92,8 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>483</width>
-     <height>26</height>
+     <width>631</width>
+     <height>21</height>
     </rect>
    </property>
   </widget>
