@@ -24,7 +24,7 @@ class App(QMainWindow, Ui_MainWindow):
         pass
 
     def clear_item(self):
-        pass
+        self.minhaLista_listWidget.clear()
 
 
 if __name__ == '__main__':
