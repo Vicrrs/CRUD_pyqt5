@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>483</width>
+    <height>524</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Agenda</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="adicionar_item_qpushbutton">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>100</y>
+      <width>121</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Adicionar Tarefa</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="deletando_item_qpushbutton">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>100</y>
+      <width>121</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Deletar Tarefa</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="limparlista_qpushbutton">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>100</y>
+      <width>121</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Limpar lista</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="adicionando_item_qlineEdit">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>30</y>
+      <width>421</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="minhaLista_listWidget">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>190</y>
+      <width>421</width>
+      <height>281</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>483</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
