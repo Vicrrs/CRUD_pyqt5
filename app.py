@@ -1,7 +1,11 @@
 import sys
 from janela import *
-from PyQt5.QtWidgets import QMainWindow, QApplication, QFileDialog
-from PyQt5.QtGui import QPixmap
+from PyQt5.QtWidgets import QMainWindow, QApplication
+import sqlite3
+
+
+# criando conexao com db
+conn = sqlite3.connect('minha_lista.db')
 
 
 class App(QMainWindow, Ui_MainWindow):
