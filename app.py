@@ -21,7 +21,10 @@ class App(QMainWindow, Ui_MainWindow):
         self.adicionando_item_qlineEdit.setText("")
 
     def delete_item(self):
-        pass
+        # pega a linha selecionada ou a linha atual
+        seleciona = self.minhaLista_listWidget.currentRow()
+        # Deletar linha selecionada
+        self.minhaLista_listWidget.takeItem(seleciona)
 
     def clear_item(self):
         self.minhaLista_listWidget.clear()
