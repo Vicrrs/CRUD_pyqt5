@@ -1,9 +1,7 @@
 # CRUD_pyqt5
 
-### Video de demonstração
-```bash
-link: https://www.youtube.com/watch?v=2R-_U02RM6o&t=11s&ab_channel=VictorRoza
-```
+
+[Video de demonstração.](https://www.youtube.com/watch?v=2R-_U02RM6o&t=11s&ab_channel=VictorRoza)
 
 ## Clonando repositório
 Supondo que esteja no Linux, instale o gh:
